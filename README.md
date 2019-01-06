@@ -32,6 +32,8 @@ git clone https://github.com/cocodataset/cocoapi.git
 ```
 
 2. Setup COCO API (also described in the readme [here](https://github.com/cocodataset/cocoapi)):
+*need to install cython first by running
+```pip install cython```
 ```
 cd cocoapi/PythonAPI
 make
